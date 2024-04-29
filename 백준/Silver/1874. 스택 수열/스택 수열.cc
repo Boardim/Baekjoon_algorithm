@@ -3,7 +3,9 @@
 #include <vector>
 using namespace std;
 int main () {
-	int arr[100001], n, k, current{ 1 }, check{ 0 };
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	int n, k, current{ 1 }, check{ 0 };
 	stack<int> a;
 	vector<string> answer;
 	a.push(0);
